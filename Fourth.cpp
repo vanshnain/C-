@@ -8,27 +8,25 @@ void displayASCII(const char str[]) {
         cout << str[i] << " -> " << int(str[i]) << endl;
     }
 }
-// Function to concatenate two strings
 void concatenateStrings(char str1[], const char str2[]) {
     int i = 0, j = 0;
-    while (str1[i] != '\0') i++; // Move to end of first string
+    while (str1[i] != '\0') i++;
     while (str2[j] != '\0') {
-        str1[i] = str2[j]; // Append second string
+        str1[i] = str2[j];
         i++;
-        j++;
     }
-    str1[i] = '\0'; // Null-terminate the concatenated string
+    str1[i] = '\0';
 }
 // Function to compare two strings manually
 int compareStrings(const char str1[], const char str2[]) {
     int i = 0;
     while (str1[i] != '\0' && str2[i] != '\0') {
         if (str1[i] != str2[i]) {
-            return str1[i] - str2[i]; // Return difference
+            return str1[i] - str2[i];
         }
         i++;
     }
-    return str1[i] - str2[i]; // Handles different lengths
+    return str1[i] - str2[i]; 
 }
 int main() {
     char str1[100], str2[100];
