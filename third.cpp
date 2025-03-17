@@ -12,7 +12,7 @@ void countOccurrences(string str) {
     }
     cout << "Character Frequency Table:\n";
     for (auto pair : freq) {
-        cout << pair.first << " -> " << pair.second << endl;
+        cout << pair.first << " -> " << pair.second cout<<endl;
     }
 }
 int main() {
