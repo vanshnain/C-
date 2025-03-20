@@ -1,5 +1,4 @@
 Program-2 With Output
-
 #include <iostream>
 #include <vector>
 #include <set>
@@ -17,4 +16,3 @@ int main() {
     for (int num : arr) cout << num << " ";
     return 0;
 }
-<img width="826" alt="image" src="https://github.com/user-attachments/assets/843f1590-5d1c-45d4-b12e-5c19d3f7f55a" />
