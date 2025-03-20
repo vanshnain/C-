@@ -1,4 +1,5 @@
 Program-1 With Output
+#include <iostream>
 #include <cmath>
 using namespace std;
 double seriesSum(int n) {
