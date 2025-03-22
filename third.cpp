@@ -1,8 +1,8 @@
 Program-3 With Output
-#include <iostream>
-#include <string>
+#include <iostream> // (this is for input and output like cout and cin)
+#include <string>  // Includes the standard C++ string class for handling text data.
 #include <map>
-using namespace std;
+using namespace std; // allow functions
 void countOccurrences(string str) {
     map<char, int> freq;
     for (char c : str) {
@@ -22,6 +22,3 @@ int main() {
     countOccurrences(input);
     return 0;
 }
-
-
-<img width="839" alt="image" src="https://github.com/user-attachments/assets/a6803e01-8d20-40de-91d8-a753fbd670f4" />
